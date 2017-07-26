@@ -139,6 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="console\big_numbers.cpp" />
+    <ClCompile Include="console\real.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console\libs.h" />
+    <ClInclude Include="console\real.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
